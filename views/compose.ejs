@@ -1,0 +1,16 @@
+<%- include("paritals/header.ejs"); %>
+
+<h1>Compose</h1>
+
+<form class="" action="/compose" method="post">
+  <div class="form-group">
+    <label>Title</label>
+    <input type="text" class="form-control" name="titleMessage">
+    <label>Post</label><br>
+    <textarea class="form-control" name="postMessage" rows="5" cols="80"></textarea><br>
+  </div>
+    <button class="btn btn-primary" type="submit">Publish</button
+
+</form>
+
+<%- include("paritals/footer.ejs"); %>
